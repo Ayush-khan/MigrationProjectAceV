@@ -5,6 +5,7 @@ import { MdOutlinePayment } from "react-icons/md";
 import Card from "../components/common/Card.jsx";
 import CardStuTech from "../components/common/CardStuTech.jsx";
 import Style from "../Styles/AdminDashboard.module.css";
+// This is DashbordContent
 
 const DashboardContent = () => {
   return (

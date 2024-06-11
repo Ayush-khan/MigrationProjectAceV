@@ -10,7 +10,7 @@ const Card = ({ title, value, color, icon }) => {
         {icon && <div className={`${styles.icon} text-6xl`}>{icon}</div>}
         <div>
           <div className={styles["card-title"]}>{title}</div>
-          {/* <div className={styles["small-desc"]}>{value}</div> */}
+          {/* <div className={styles["small-desc"]}>{value}</div>   */}
         </div>
       </div>
       <div className={styles.go_corner}>

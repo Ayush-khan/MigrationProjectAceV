@@ -17,7 +17,7 @@ const DashboardContent = () => {
         totalvalue="1098428"
         value="3256"
         // color="#FF5733"
-        
+
         icon={<FaUsers />}
       />
       <CardStuTech
@@ -30,13 +30,11 @@ const DashboardContent = () => {
       <Card
         title="Courses"
         value="16"
- 
         icon={<PiBookOpenUserLight />}
       />
       <Card
         title="Fees"
         value="3,47,000"
-     
         icon={<MdOutlinePayment />}
       />
       <Card
@@ -63,7 +61,7 @@ const DashboardContent = () => {
 
         icon={<PiBookOpenUserLight />}
       />
-      {/* you can add more cards here just add on */}
+      {/* you can add more cardss here just add on */}
     </div></>
   );
 };

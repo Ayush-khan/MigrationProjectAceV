@@ -17,6 +17,7 @@ const DashboardContent = () => {
         totalvalue="1098428"
         value="3256"
         // color="#FF5733"
+        
         icon={<FaUsers />}
       />
       <CardStuTech

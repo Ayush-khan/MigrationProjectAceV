@@ -1,7 +1,7 @@
 import Header from "../components/layout/Header.jsx";
 import DashboardContent from "./DashboardContent.jsx";
 // import Style from '../Styles/AdminDashboard.module.css';
-// AdminDashbord
+// AdminDashbord is here
 const AdminDashboard = () => {
   return (
     <div className="flex items-start justify-center flex-col">

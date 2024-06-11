@@ -1,6 +1,7 @@
 import styles from "../../Styles/Card.module.css";
 import { FaArrowRightLong } from "react-icons/fa6";
-const Card = ({ title, value, color, icon }) => {
+const CardStuTech = ({ title, presentvalue,totalvalue, color, icon }) => {
+     
   return (
     <div
       className={`w-full  ${styles.card} rounded-sm`}
@@ -10,7 +11,8 @@ const Card = ({ title, value, color, icon }) => {
         {icon && <div className={`${styles.icon} text-6xl`}>{icon}</div>}
         <div>
           <div className={styles["card-title"]}>{title}</div>
-          {/* <div className={styles["small-desc"]}>{value}</div> */}
+          <div className={styles["small-desc"]}>Present | {presentvalue}</div>
+          <div className={styles["small-desc"]}>Total | {totalvalue}</div>
         </div>
       </div>
       <div className={styles.go_corner}>
@@ -22,4 +24,4 @@ const Card = ({ title, value, color, icon }) => {
   );
 };
 
-export default Card;
+export default CardStuTech;

@@ -1,0 +1,31 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .cardMain {
+    display: flex;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .totalNumber {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
